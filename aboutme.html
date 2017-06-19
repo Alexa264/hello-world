@@ -1,29 +1,22 @@
-from PIL import Image
-
-im = Image.open('beyonce.jpg') # Defines im as the file beyonce.jpg
-pixels = list(im.getdata()) # All pixel values from image in a list
-listlength = len(pixels) # Number of pixels in photo
-
-darkBlue = (0, 51, 76,);
-red = (217, 26, 33,);
-lightBlue = (112, 150, 158,);
-yellow = (252, 227, 166,);
-
-for item in range(listlength): # loop for every pixel in image
- redvalue = pixels[item][0]
- greenvalue = pixels[item][1]
- bluevalue = pixels[item][2]
- sum = redvalue + greenvalue + bluevalue
-
- if sum < 182: # Keep in loop so every pixel affected
- pixels[item] = darkBlue
- elif 182 <= sum < 364:
- pixels[item] = red
- elif 364 <= sum < 546:
- pixels[item] = lightBlue
- elif 546 <= sum:
- pixels[item] = yellow
-
-im.putdata(pixels)
-im.show()
-im.save('beyonceoutput.jpg', 'jpeg')
+<!DOCTYPE html>
+<html>
+<body>
+<title>About Me</title>
+<body style="background-color: #FAEBD7"> 
+<p>Alexa Ellis</p> 
+<p>alexaellis264@gmail.com</p>
+ <img src="WIN_20170612_15_16_13_Pro.jpg" alt="HTML5 Icon" style="width:128px;height:128px;"> 
+  <h2>fun facts :<h2> 
+  <p>I want to own an envormental tech company ,Im taking chinese class 4 next year, vice president of my 9th grade class</p>
+<h3>Activties<h3> 
+  <p>student goverment, WIT(women in tech), WIAI(women in avaiation international) ,GEM(girl empowerment movement)</p>
+<h4>Biography<h4>
+ <p> My name is Alexa Ellis Im a young soon to be coder.</p>
+ <p> My dream job is to own an evorimental science tech company.</p>
+  <p>I also have a passion for avaiation and dermatology</p>
+  <h4>likes/Dislikes<h4>
+    <p>like:codeing , Dis:social studies ,like:Animals, Dis:school</p>
+    <h5>favrorite website </h5>
+    <p> www.target.com ,https://www.fashionnova.com,http://www.forever21.com/</p>
+   <p>1. the variable, founctions,conditionals,and lops coding program </p>
+   <p>2.start...hello
