@@ -1,0 +1,68 @@
+'''def button (msg,x,y,w,h,ic,ac,action =None) :
+   mouse = pygame.key.get_pos()
+   mouse = pygame.key.get_pressed()
+   If 250 > mouse [0] > 150 and 500 > mouse [1] > 40:
+   If click[0] == 1 and action != None:
+   If action == “play”:
+
+   pygame.draw.rect(gameDisplay,bright_green, (150,450,100,50))
+else:
+    pygame.draw.rect(gameDisplay, green,(150,450,100,50))
+    smallText = pygame.font.Font(“freesansbold.ttf”.20)
+    textSurf, textRect = text_objects (“Play”,smallText)
+    textRect.center = ((150+(100/2)), (450 + (50/2)) )
+    gameDisplay.blit(textSurf, textRect)
+
+
+def game_intro():
+      Intro =True
+      while intro:
+             for event in pygame.event.
+                  If event.type == pygame.QUIT
+                     pygame.quit ()
+                     quit ()
+  gameDisplay.fill(BLUE)
+def text_objects (text, font):
+      textSurface = font.render (text, True, black)
+      return textSurface, textSurface.get_rect()
+def message_display(text):
+      largeText = pygame.font.Font(‘freesansbold.ttf’, 25 )
+      TextSurf, TextRect = text_objects(“  TheHack
+Hello my name is Z and I’m a programer at the Pentagon. I’ve made a chat box for  morse code(a secret military language used to tell the government where they need their supplies dropped off ) But the chat box has been wiped out by a evil villain named man x!!!! .Who hid it in a secret location on a flash drive and to hide evidence  ripped up the map pieces all over the city .Use arrows to avoid green viruses and collect map pieces to find the location and get back your flash drive.
+				   		You Go Girl !!!
+
+”, largeText)
+   TextRect.center = ((display_width/2), (dispaly_height/2))
+   gameDisplay.blit(TextSurf, TextRect)
+ K_LEFT = pygame.key.get_pressed()
+
+If 150+100 > K_LEFT [0] > 150 and 450+50 > K_LEFT [1] > 450:
+   pygame.draw.rect(gameDisplay,bright_green, (150,450,100,50, “play”))
+else:
+pygame.draw.rect(gameDisplay, green,(150,450,100,50))
+smallText = pygame.font.Font(“freesansbold.ttf”.20)
+textSurf, textRect = text_objects (“Play”,smallText)
+textRect.center = ((150+(100/2)), (450 + (50/2)) )
+gameDisplay.blit(textSurf, textRect)
+
+
+pygame.draw.rect (gameDisplay, green, (150, 450, 100,  50))
+for block in Map_hit_list:
+score += 1
+print( score )
+If len (block_list) == 0
+   Level += 1
+
+pygame.display.update()
+clock.tick(45)
+
+
+def   score(count):
+ font = pygame.font.SysFont(None, 15)
+ Text = font.render(“score  “+str(count)True, black)
+gameDisplay.blit(text,(0,0))
+
+
+font = pygame.font.SyaFont(None, 15)
+Text = font.render(“score  “+str(count)True, black)
+gameDisplay.blit(text,(0,0))'''
